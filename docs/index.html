@@ -34,7 +34,11 @@ layout: default
 				<div class="card-body">
 					<div class="row">
 						<div class="col-4">
+							{% if character.image %}
 							<img style="width: 100%" src="{{ character.image }}" alt="{{ character.name }}">
+							{% else %}
+							<img style="width: 100%" src="/war-and-peace/assets/images/no-image.jpeg" alt="{{ character.name }}">
+							{% endif %}
 						</div>
 							<div class="col-8">
 							<h5 class="card-title">{{ character.name }}</h5>
