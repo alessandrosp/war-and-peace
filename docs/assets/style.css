@@ -1,0 +1,33 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.blockquote {
+  border-left: 4px solid #ddd;
+  color: #4e5256;
+  font-size: 95%;
+  padding-left: 8px;
+  position: relative;
+}
+
+.blockquote:before {
+  color: #eee;
+  content: '\201C'; /* It's a quote. */
+  display: inline;
+  font-size: 800%;
+  left: 3px;
+  position: absolute;
+  top: -62px;
+  z-index: -1;
+}
+
+.blockquote-footer {
+  font-size: 98%;
+}
+
+.container {
+  font-size: 105%;
+  margin-bottom: 100px;
+  max-width: 900px;
+  padding-top: 15px;
+}
