@@ -38,7 +38,7 @@ layout: default
 		<p>
 			<ol>
 				{% for character in site.characters %}
-					<li>character.name | character.russian</li>
+					<li>{{ character.name }} | {{ character.russian }}</li>
 				{% endfor %}
 			</ol>
 		</p>
