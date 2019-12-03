@@ -28,30 +28,30 @@ layout: default
 			<h2 id="characters">The Characters</h2>
 		</p>
 		<p>
-				{% for character in site.characters %}
-				<div class="card" id="{{ character.name }}">
-					<div class="card-body">
-						<div class="row">
-							<div class="col-4">
-								<img style="width: 100%" src="{{ character.image }}" alt="{{ character.name }}">
-							</div>
-								<div class="col-8">
-								<h5 class="card-title">{{ character.name }}</h5>
-								<h6 class="card-subtitle mb-2 text-muted">{{ character.russian }}</h6>
-								<p class="card-text">{{ character.description }}</p>
-							</div>
+			{% for character in site.characters %}
+			<div class="card" id="{{ character.name }}">
+				<div class="card-body">
+					<div class="row">
+						<div class="col-4">
+							<img style="width: 100%" src="{{ character.image }}" alt="{{ character.name }}">
+						</div>
+							<div class="col-8">
+							<h5 class="card-title">{{ character.name }}</h5>
+							<h6 class="card-subtitle mb-2 text-muted">{{ character.russian }}</h6>
+							<p class="card-text">{{ character.description }}</p>
 						</div>
 					</div>
-					<ul class="list-group list-group-flush">
-						{% for relationship in character.relationships %}
-							<li class="list-group-item">{{ relationship.predicate }} of <a href="#{{  relationship.object  }}">{{  relationship.object  }}</a></li>
-						{% endfor %}
-					</ul>
-					<div class="card-body">
-						<a href="#characters" class="card-link">To the top</a>
-					</div>
 				</div>
-				{% endfor %}
+				<ul class="list-group list-group-flush">
+					{% for relationship in character.relationships %}
+						<li class="list-group-item">{{ relationship.predicate }} of <a href="#{{  relationship.object  }}">{{  relationship.object  }}</a></li>
+					{% endfor %}
+				</ul>
+				<div class="card-body">
+					<a href="#characters" class="card-link">To the top</a>
+				</div>
+			</div>
+			{% endfor %}
 		</p>
 	</div>
 </div>
