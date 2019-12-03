@@ -1,4 +1,3 @@
-
 ---
 name: Elisabeta Karlovna Bolkonskaya
 russian: 
