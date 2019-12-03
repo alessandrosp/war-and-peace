@@ -24,6 +24,7 @@ layout: default
 				<footer class="blockquote-footer">Wikipedia, War and Peace, 2019</footer>
 			</blockquote>
 		</p>
+		<br>
 		<p>
 			<h2 id="characters">The Characters</h2>
 		</p>
@@ -42,11 +43,13 @@ layout: default
 						</div>
 					</div>
 				</div>
-				<ul class="list-group list-group-flush">
-					{% for relationship in character.relationships %}
-						<li class="list-group-item">{{ relationship.predicate }} of <a href="#{{  relationship.object  }}">{{  relationship.object  }}</a></li>
-					{% endfor %}
-				</ul>
+				{% if character.relationships %}
+					<ul class="list-group list-group-flush">
+						{% for relationship in character.relationships %}
+							<li class="list-group-item">{{ relationship.predicate }} of <a href="#{{  relationship.object  }}">{{  relationship.object  }}</a></li>
+						{% endfor %}
+					</ul>
+				{% endif %}
 				<div class="card-body">
 					<a href="#characters" class="card-link">To the top</a>
 				</div>
