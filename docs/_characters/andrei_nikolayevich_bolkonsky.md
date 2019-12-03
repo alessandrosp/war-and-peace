@@ -6,4 +6,6 @@ image: /war-and-peace/assets/images/andrei_nikolayevich_bolkonsky.jpg
 relationships:
   - predicate: Son
     object: Nikolai Bolkonsky
+  - predicate: Husband
+    object: Elisabeta Karlovna Bolkonskaya
 ---
