@@ -25,12 +25,12 @@ layout: default
 			</blockquote>
 		</p>
 		<p>
-			<h2>The Characters</h2>
+			<h2 id="characters">The Characters</h2>
 		</p>
 		<p>
 			<ol>
 				{% for character in site.characters %}
-				<div class="card" style="width: 18rem;">
+				<div class="card">
 					<img class="card-img-top" src="{{ character.image }}" alt="Card image cap">
 					<div class="card-body">
 						<h5 class="card-title">{{ character.name }}</h5>
@@ -43,8 +43,7 @@ layout: default
 						<li class="list-group-item">Vestibulum at eros</li>
 					</ul>
 					<div class="card-body">
-						<a href="#" class="card-link">Card link</a>
-						<a href="#" class="card-link">Another link</a>
+						<a href="#characters" class="card-link">To the top</a>
 					</div>
 				</div>
 				{% endfor %}
