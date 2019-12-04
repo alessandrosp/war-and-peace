@@ -5,7 +5,9 @@ description: A young man, described as being very elegant but often bored, melan
 image: /war-and-peace/assets/images/andrei_nikolayevich_bolkonsky.jpg
 relationships:
   - predicate: Son
-    object: Nikolai Bolkonsky
+    object: Nikolai Andreyevich Bolkonsky
+  - predicate: Brother
+    object: Marya Nikolaevna Bolkonskaya
   - predicate: Husband
     object: Elisabeta Karlovna Bolkonskaya
 ---
