@@ -7,4 +7,6 @@ image: /war-and-peace/assets/images/fyodor_ivanovic_dolokhov.jpg
 relationships:
   - predicate: Friend
     object: Anatole Vasilyevich Kuragin
+  - predicate: Friend
+    object: Nikolai Ilyich Rostov
 ---
