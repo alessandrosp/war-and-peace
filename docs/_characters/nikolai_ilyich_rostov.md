@@ -7,4 +7,6 @@ image: /war-and-peace/assets/images/nikolai_ilyich_rostov.jpg
 relationships:
   - predicate: Friend
     object: Fyodor Ivanovic Dolokhov
+  - predicate: Friend
+    object: Vasily Vasilyevich Orlov-Denisov
 ---
