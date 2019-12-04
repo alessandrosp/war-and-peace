@@ -49,8 +49,16 @@ layout: default
 					{% endif %}
 						<img class="d-block w-100" src="{{ event.image }}" alt="{{ event.name }}">
 						<div class="carousel-caption d-none d-md-block">
-							<h5>{{ event.name }}</h5>
-							<p>{{ event.description }}</p>
+							<h5>
+								<span style="background-color: rgba(0, 0, 0, 0.6)">
+									{{ event.name }}
+								</span>
+							</h5>
+							<p>
+								<span style="background-color: rgba(0, 0, 0, 0.6)">
+									{{ event.description }}
+								</span>
+							</p>
 						</div>
 					</div>
 				{% endfor %}
