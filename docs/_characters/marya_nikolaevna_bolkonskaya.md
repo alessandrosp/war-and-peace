@@ -9,4 +9,6 @@ relationships:
     object: Nikolai Andreyevich Bolkonsky
   - predicate: Sister
     object: Andrei Nikolayevich Bolkonsky
+  - predicate: Friend
+    object: Amélie Bourienne
 ---
