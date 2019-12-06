@@ -1,7 +1,7 @@
 ---
 name: Boris Drubetskoy
-russian: 
-description: 
+russian: Борис Друбецкой
+description:
 image: /war-and-peace/assets/images/boris_drubetskoy.jpg
 relationships:
   - predicate: Friend
