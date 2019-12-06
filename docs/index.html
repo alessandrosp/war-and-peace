@@ -4,7 +4,7 @@ layout: default
 ---
 <div class="row">
 	<div class="col-12">
-		<img src="/war-and-peace/assets/images/cover.jpg" class="img-fluid" style="width: 100%">
+		<img src="/war-and-peace/assets/images/cover.jpg" class="img-fluid" style="width: 100%;">
 		<p>
 			<h1>War and Peace</h1>
 		</p>
@@ -46,7 +46,7 @@ layout: default
 					{% endif %}
 				{% endfor %}
 			</ol>
-			<div class="carousel-inner">
+			<div class="carousel-inner" style=" width:100%; height: 500px !important;">
 				{% assign sorted_events = site.events | sort: "year" %}
 				{% for event in sorted_events %}
 					{% if forloop.index == 1 %}
@@ -57,12 +57,12 @@ layout: default
 						<img class="d-block w-100" src="{{ event.image }}" alt="{{ event.name }}">
 						<div class="carousel-caption d-none d-md-block">
 							<h5>
-								<span style="background-color: rgba(0, 0, 0, 0.6)">
+								<span style="background-color: rgba(0, 0, 0, 0.6);">
 									{{ event.name }}
 								</span>
 							</h5>
 							<p>
-								<span style="background-color: rgba(0, 0, 0, 0.6)">
+								<span style="background-color: rgba(0, 0, 0, 0.6);">
 									{{ event.description }}
 								</span>
 							</p>
