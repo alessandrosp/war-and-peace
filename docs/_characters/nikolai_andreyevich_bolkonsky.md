@@ -8,4 +8,6 @@ relationships:
     object: Andrei Nikolayevich Bolkonsky
   - predicate: Father
     object: Marya Nikolaevna Bolkonskaya
+  - predicate: Acquaintance
+    object: Mikhail Illarionovich Golenishchev-Kutuzov
 ---
