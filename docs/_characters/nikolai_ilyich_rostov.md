@@ -8,7 +8,9 @@ relationships:
   - predicate: Brother
     object: Natalya Ilyinichna Rostova
   - predicate: Friend
-    object: Fyodor Ivanovic Dolokhov
+    object: Boris Drubetskoy
   - predicate: Friend
     object: Vasily Vasilyevich Orlov-Denisov
+  - predicate: Friend
+    object: Fyodor Ivanovic Dolokhov
 ---
