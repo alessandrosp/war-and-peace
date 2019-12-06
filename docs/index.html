@@ -30,7 +30,7 @@ layout: default
 			<p>
 				Bellow you can find a carousel with some essential information about the most relevant historical events that happened right before or during the book. Please note, the text is only visible on tablet or desktop devices.
 			</p>
-		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
 			<ol class="carousel-indicators">
 				{% for event in site.events %}
 					{% if forloop.index == 1 %}
