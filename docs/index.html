@@ -46,7 +46,7 @@ layout: default
 					{% endif %}
 				{% endfor %}
 			</ol>
-			<div class="carousel-inner" style=" width:100%; height: 500px !important;">
+			<div class="carousel-inner">
 				{% assign sorted_events = site.events | sort: "year" %}
 				{% for event in sorted_events %}
 					{% if forloop.index == 1 %}
