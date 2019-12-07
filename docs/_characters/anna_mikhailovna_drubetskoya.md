@@ -7,4 +7,6 @@ image: /war-and-peace/assets/images/anna_mikhailovna_drubetskoya.jpg
 relationships:
   - predicate: Mother
     object: Boris Drubetskoy
+  - predicate: Friend
+    object: Natalya Rostova
 ---
