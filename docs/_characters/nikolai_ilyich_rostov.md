@@ -7,6 +7,8 @@ image: /war-and-peace/assets/images/nikolai_ilyich_rostov.jpg
 relationships:
   - predicate: Son
     object: Ilya Andreyevich Rostov
+  - predicate: Son
+    object: Natalya Rostova
   - predicate: Brother
     object: Natalya Ilyinichna Rostova
   - predicate: Friend
