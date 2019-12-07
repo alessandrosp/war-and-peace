@@ -7,6 +7,8 @@ image: /war-and-peace/assets/images/natalya_ilyinichna_rostova.jpg
 relationships:
   - predicate: Daughter
     object: Ilya Andreyevich Rostov
+  - predicate: Daughter
+    object: Natalya Rostova
   - predicate: Sister
     object: Nikolai Ilyich Rostov
   - predicate: Enamoured
