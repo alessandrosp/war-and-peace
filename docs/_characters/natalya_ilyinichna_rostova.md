@@ -11,6 +11,8 @@ relationships:
     object: Natalya Rostova
   - predicate: Sister
     object: Nikolai Ilyich Rostov
+  - predicate: Sister
+    object: Pyotr Ilyich Rostov
   - predicate: Enamoured
     object: Boris Drubetskoy
 ---
