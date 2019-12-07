@@ -11,4 +11,6 @@ relationships:
     object: Nikolai Ilyich Rostov
   - predicate: Father
     object: Natalya Ilyinichna Rostova
+  - predicate: Father
+    object: Pyotr Ilyich Rostov
 ---
