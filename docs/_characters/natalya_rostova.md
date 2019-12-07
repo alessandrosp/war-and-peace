@@ -11,6 +11,8 @@ relationships:
     object: Natalya Ilyinichna Rostova
   - predicate: Mother
     object: Nikolai Ilyich Rostov
+  - predicate: Mother
+    object: Pyotr Ilyich Rostov
   - predicate: Friend
     object: Anna Mikhailovna Drubetskoya
 ---
