@@ -30,5 +30,6 @@ var utils = {
 };
 
 $('#filter-name').change(function() {
+  console.log('Change has been detected.');
   utils.filterByName(this.value);
 });
