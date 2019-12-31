@@ -81,6 +81,14 @@ layout: default
 		<p>
 			Relationships that develop throughout the book and that could be considered revealing are omitted on purpose.
 		</p>
+		<form>
+			<div class="form-group row">
+				<label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Name</label>
+				<div class="col-sm-10">
+					<input type="text" class="form-control form-control-lg" id="colFormLabelLg" placeholder="col-form-label-lg">
+				</div>
+			</div>
+		</form>
 		<p>
 			{% for character in site.characters %}
 			<div class="card character" id="{{ character.name }}">
