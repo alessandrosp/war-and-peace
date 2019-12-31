@@ -1,5 +1,11 @@
 var utils = {
   
+  /**
+   * Iterate through the characters and hide cards when the name doesn't match.
+   * 
+   * Note that the name can be just a substr of the full name.
+   * @param {String} name - The name of the character.
+   */
   filterByName: function(name) {
     $('character').each(function() {
       // If name is empty, then we display all characters; if not
