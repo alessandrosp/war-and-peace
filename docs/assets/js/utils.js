@@ -35,6 +35,10 @@ $('#filter-name').change(function() {
   utils.filterByName(this.value);
 });
 
+$('#filter-name').keyup(function() {
+  utils.filterByName(this.value);
+});
+
 $('#filter-name').keydown(function(event) {
   // 13: ENTER
   if (event.which === 13) {
