@@ -30,6 +30,12 @@ var utils = {
 };
 
 $('#filter-name').change(function() {
-  console.log('Change has been detected.');
   utils.filterByName(this.value);
+});
+
+$('#filter-name').keydown(function(event) {
+  // 13: ENTER
+  if (event.which === 13) {
+      event.preventDefault();
+  }
 });
