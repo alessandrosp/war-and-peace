@@ -7,12 +7,14 @@ var utils = {
    * @param {String} name - The name of the character.
    */
   filterByName: function(name) {
+    let nameLower = name.toLowerCase();
     $('.character').each(function() {
+      let idLower = this.id.toLowerCase();
       // If name is empty, then we display all characters; if not
       // then we check whether the name inputted is a substr of the name.
-      if (!name) {
+      if (!nameLower) {
         $(this).css('display', 'block');
-      } else if (this.id.includes(name)) {
+      } else if (idLower.includes(nameLower)) {
         $(this).css('display', 'block');
       } else {
         $(this).css('display', 'none');
