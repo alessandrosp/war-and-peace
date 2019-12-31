@@ -7,7 +7,7 @@ var utils = {
    * @param {String} name - The name of the character.
    */
   filterByName: function(name) {
-    $('character').each(function() {
+    $('.character').each(function() {
       // If name is empty, then we display all characters; if not
       // then we check whether the name inputted is a substr of the name.
       if (!name) {
