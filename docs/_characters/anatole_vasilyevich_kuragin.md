@@ -11,4 +11,6 @@ relationships:
     object: Helena Vasilyevna Kuragina
   - predicate: Friend
     object: Fyodor Ivanovic Dolokhov
+  - predicate: Friend
+    object: Pyotr Kirillovich Bezukhov
 ---
