@@ -13,6 +13,8 @@ relationships:
     object: Natalya Ilyinichna Rostova
   - predicate: Brother
     object: Pyotr Ilyich Rostov
+  - predicate: Enamoured
+    object: Sonya Alexandrovna Rostova
   - predicate: Friend
     object: Boris Drubetskoy
   - predicate: Friend
