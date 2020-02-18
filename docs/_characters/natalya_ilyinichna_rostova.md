@@ -16,5 +16,7 @@ relationships:
   - predicate: Enamoured
     object: Boris Drubetskoy
   - predicate: Friend
+    object: Sonya Alexandrovna Rostova
+  - predicate: Friend
     object: Pyotr Kirillovich Bezukhov
 ---
