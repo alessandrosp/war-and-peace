@@ -11,4 +11,6 @@ relationships:
     object: Marya Nikolaevna Bolkonskaya
   - predicate: Husband
     object: Elisabeta Karlovna Bolkonskaya
+  - predicate: Friend
+    object: Pyotr Kirillovich Bezukhov
 ---
