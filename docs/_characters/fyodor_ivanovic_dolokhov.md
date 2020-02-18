@@ -8,5 +8,8 @@ relationships:
   - predicate: Friend
     object: Anatole Vasilyevich Kuragin
   - predicate: Friend
+    object: Pyotr Kirillovich Bezukhov
+  - predicate: Friend
     object: Nikolai Ilyich Rostov
+    
 ---
