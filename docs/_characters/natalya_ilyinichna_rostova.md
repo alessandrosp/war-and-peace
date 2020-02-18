@@ -15,4 +15,6 @@ relationships:
     object: Pyotr Ilyich Rostov
   - predicate: Enamoured
     object: Boris Drubetskoy
+  - predicate: Friend
+    object: Pyotr Kirillovich Bezukhov
 ---
